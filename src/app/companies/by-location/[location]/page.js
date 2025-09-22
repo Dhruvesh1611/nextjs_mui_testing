@@ -139,7 +139,7 @@ export default function CompaniesByLocationPage() {
           </Alert>
         ) : companies.length === 0 ? (
           <Alert severity="info">
-            No companies found in "{params.location}".
+            No companies found in &quot;{params.location}&quot;.
           </Alert>
         ) : (
           <>
@@ -148,7 +148,7 @@ export default function CompaniesByLocationPage() {
               gutterBottom 
               sx={{ mb: 3 }}
             >
-              Found {companies.length} companies in "{params.location}"
+              Found {companies.length} companies in &quot;{params.location}&quot;
             </Typography>
 
             <Grid container spacing={3}>

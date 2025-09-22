@@ -139,7 +139,7 @@ export default function CompaniesBySkillPage() {
           </Alert>
         ) : companies.length === 0 ? (
           <Alert severity="info">
-            No companies found requiring the skill "{params.skill}".
+            No companies found requiring the skill &quot;{params.skill}&quot;.
           </Alert>
         ) : (
           <>
@@ -148,7 +148,7 @@ export default function CompaniesBySkillPage() {
               gutterBottom 
               sx={{ mb: 3 }}
             >
-              Found {companies.length} companies requiring "{params.skill}"
+              Found {companies.length} companies requiring &quot;{params.skill}&quot;
             </Typography>
 
             <Grid container spacing={3}>

@@ -155,7 +155,7 @@ export default function CompaniesByBenefitPage() {
           </Alert>
         ) : companies.length === 0 ? (
           <Alert severity="info">
-            No companies found offering "{params.benefit}" benefit.
+            No companies found offering &quot;{params.benefit}&quot; benefit.
           </Alert>
         ) : (
           <>
@@ -164,7 +164,7 @@ export default function CompaniesByBenefitPage() {
               gutterBottom 
               sx={{ mb: 3 }}
             >
-              Found {companies.length} companies offering "{params.benefit}"
+              Found {companies.length} companies offering &quot;{params.benefit}&quot;
             </Typography>
 
             <Grid container spacing={3}>
